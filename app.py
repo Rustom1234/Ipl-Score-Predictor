@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import joblib  # Use this for loading the trained pipeline
 
 # Load pre-trained pipeline (Assuming saved as "ipl_pipeline.pkl")

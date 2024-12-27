@@ -8,6 +8,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from xgboost import XGBRegressor
 import joblib
 
+#check
 # Load data
 df = pd.read_csv('ipl_data_2016.csv')
 df_temp = pd.read_csv('matches.csv')
