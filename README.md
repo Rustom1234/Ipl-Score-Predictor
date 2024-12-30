@@ -64,7 +64,10 @@ streamlit run app.py
 After training, the model's performance is evaluated using:
 - **R² Score:** Indicates the proportion of variance in the dependent variable predictable from the independent variables.
 - **Mean Absolute Error (MAE):** Measures the average magnitude of errors in predictions, without considering their direction.
+
 These metrics are printed in the console upon running the training script.
+
+
 
 
 
