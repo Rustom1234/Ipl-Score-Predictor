@@ -1,6 +1,6 @@
 # IPL Cricket Score Predictor  
 
-<img src="Screenshot 2024-12-27 at 1.53.16 PM.png" alt="Score Predictor App" width="400"/>
+<img src="Screenshot 2024-12-30 at 10.25.29 AM.png" alt="Score Predictor App" width="400"/>
 
 ## Introduction
 
