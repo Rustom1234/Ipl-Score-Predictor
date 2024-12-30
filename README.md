@@ -1,6 +1,6 @@
 # IPL Cricket Score Predictor  
 
-<img src="Screenshot 2024-12-30 at 10.25.29 AM.png" alt="Score Predictor App" width="400"/>
+<img src="ss_IPL_app_usage.png" alt="Score Predictor App" width="400"/>
 
 ## Introduction
 
@@ -71,8 +71,7 @@ These metrics are printed in the console upon running the training script.
 
 ```
 Ipl-Score-Predictor/
-├── images/
-│   ├── ipl_data_2016.csv
+├── images_of_app/
 │   └── matches.csv
 ├── data/
 │   ├── ipl_data_2016.csv
