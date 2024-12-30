@@ -71,14 +71,18 @@ These metrics are printed in the console upon running the training script.
 
 ```
 Ipl-Score-Predictor/
-|
+├── images/
+│   ├── ipl_data_2016.csv
+│   └── matches.csv
 ├── data/
 │   ├── ipl_data_2016.csv
 │   └── matches.csv
+├── code/
+│   ├── app.py
+│   └── model_pipeline.py
 ├── models/
 │   └── ipl_pipeline.pkl
-├── train_model.py
-├── app.py
+├──.gitattributes
 ├── requirements.txt
 └── README.md
 
