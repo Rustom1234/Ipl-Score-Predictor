@@ -40,6 +40,14 @@ python model_pipeline.py
 - Model Metrics: The script will print the R<sup>2</sup> score and Mean Absolute Error.
 - Saved Model: The trained pipeline is saved as `ipl_pipeline.pkl` in the project directory.
 
+## Model Evaluation
+
+After training, the model's performance is evaluated using:
+- **R² Score:** Indicates the proportion of variance in the dependent variable predictable from the independent variables.
+- **Mean Absolute Error (MAE):** Measures the average magnitude of errors in predictions, without considering their direction.
+
+These metrics are printed in the console upon running the training script.
+
 ## Running the Streamlit App
 
 1. **Launch the App**
@@ -59,14 +67,6 @@ streamlit run app.py
 - **Runs in Last 5 Overs:** Input the runs scored in the last 5 overs.
 2. **Predict Score:** Click the "Predict Score" button to receive the predicted final score based on the input parameters.
 
-## Model Evaluation
-
-After training, the model's performance is evaluated using:
-- **R² Score:** Indicates the proportion of variance in the dependent variable predictable from the independent variables.
-- **Mean Absolute Error (MAE):** Measures the average magnitude of errors in predictions, without considering their direction.
-
-These metrics are printed in the console upon running the training script.
-
 ## Project Structure
 
 ```
@@ -79,19 +79,13 @@ Ipl-Score-Predictor/
 ├── code/
 │   ├── app.py
 │   └── model_pipeline.py
-├── models/
+├── model_pipeline/
 │   └── ipl_pipeline.pkl
 ├──.gitattributes
 ├── requirements.txt
 └── README.md
-
 ```
 
-```
-IPL3/ │ 
-├── code/ # Python scripts for processing and app interface │ 
-├── app.py # Main application script │ └── model_pipeline.py # Machine learning pipeline script │ ├── data/ # Dataset files │ ├── ipl_data_2016.csv # IPL data for the year 2016 │ └── matches.csv # Dataset of IPL matches │ ├── images of App/ # Images and screenshots of the app │ └── Screenshot 2024-... # Example screenshot of the app │ ├── model_pipeline/ # Pretrained model files and pipelines │ └── ipl_pipeline.pkl # Serialized machine learning pipeline │ ├── .gitattributes # Git configuration file ├── README.md # Project documentation (this file)
-```
 
 
 
