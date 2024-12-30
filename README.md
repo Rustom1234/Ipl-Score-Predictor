@@ -67,8 +67,28 @@ After training, the model's performance is evaluated using:
 
 These metrics are printed in the console upon running the training script.
 
+## Project Structure
 
+```
+Ipl-Score-Predictor/
+|
+├── data/
+│   ├── ipl_data_2016.csv
+│   └── matches.csv
+├── models/
+│   └── ipl_pipeline.pkl
+├── train_model.py
+├── app.py
+├── requirements.txt
+└── README.md
 
+```
+
+```
+IPL3/ │ 
+├── code/ # Python scripts for processing and app interface │ 
+├── app.py # Main application script │ └── model_pipeline.py # Machine learning pipeline script │ ├── data/ # Dataset files │ ├── ipl_data_2016.csv # IPL data for the year 2016 │ └── matches.csv # Dataset of IPL matches │ ├── images of App/ # Images and screenshots of the app │ └── Screenshot 2024-... # Example screenshot of the app │ ├── model_pipeline/ # Pretrained model files and pipelines │ └── ipl_pipeline.pkl # Serialized machine learning pipeline │ ├── .gitattributes # Git configuration file ├── README.md # Project documentation (this file)
+```
 
 
 
