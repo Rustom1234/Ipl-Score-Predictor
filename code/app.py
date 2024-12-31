@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib  # Use this for loading the trained pipeline
+import joblib  
 
 # Load pre-trained pipeline (Assuming saved as "ipl_pipeline.pkl")
 pipe = joblib.load("model_pipeline/ipl_pipeline.pkl")

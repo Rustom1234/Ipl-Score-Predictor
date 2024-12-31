@@ -79,7 +79,7 @@ Ipl-Score-Predictor/
 ├── code/
 │   ├── app.py
 │   └── model_pipeline.py
-├── model_pipeline/
+├── model_pipelines/
 │   └── ipl_pipeline.pkl
 ├──.gitattributes
 ├── requirements.txt
