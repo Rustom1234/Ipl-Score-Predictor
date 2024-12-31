@@ -52,7 +52,7 @@ These metrics are printed in the console upon running the training script.
 
 1. **Launch the App**
 ```
-streamlit run app.py
+streamlit run code/app.py
 ```
 2. **Access the App:** Open your web browser and navigate to http://localhost:8501 to interact with the IPL Score Predictor if it does not open automatically.
 
