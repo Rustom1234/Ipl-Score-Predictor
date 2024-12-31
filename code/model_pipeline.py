@@ -10,8 +10,8 @@ import joblib
 
 #check
 # Load data
-df = pd.read_csv('data/ipl_data_2016.csv')
-df_temp = pd.read_csv('data/matches.csv')
+df = pd.read_csv('datasets/ipl_data_2016.csv')
+df_temp = pd.read_csv('datasets/matches.csv')
 
 # Merge city data into the main DataFrame
 df_temp = df_temp[['match_id', 'city']]

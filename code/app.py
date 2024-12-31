@@ -3,7 +3,7 @@ import pandas as pd
 import joblib  
 
 # Load pre-trained pipeline (Assuming saved as "ipl_pipeline.pkl")
-pipe = joblib.load("model_pipeline/ipl_pipeline.pkl")
+pipe = joblib.load("model_pipelines/ipl_pipeline.pkl")
 
 
 # List of IPL teams
