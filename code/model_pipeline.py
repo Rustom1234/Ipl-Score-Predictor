@@ -83,5 +83,5 @@ print("R2 Score:", r2_score(y_test, y_pred))
 print("Mean Absolute Error:", mean_absolute_error(y_test, y_pred))
 
 # Save the trained pipeline
-joblib.dump(pipe, "model_pipelines/ipl_pipeline.pkl")
+joblib.dump(pipe, "model_pipeline/ipl_pipeline.pkl")
 print("Model saved as ipl_pipeline.pkl")
