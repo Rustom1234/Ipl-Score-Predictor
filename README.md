@@ -1,6 +1,6 @@
 # IPL Cricket Score Predictor  
 
-<img src="images_of_app/ss_IPL_app_usage.png" alt="Score Predictor App" width="400"/>
+<img src="images_app/ss_IPL_app_usage.png" alt="Score Predictor App" width="400"/>
 
 ## Introduction
 
