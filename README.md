@@ -72,7 +72,7 @@ streamlit run code/app.py
 ```
 Ipl-Score-Predictor/
 ├── images_of_app/
-│   └── matches.csv
+│   └── ss_IPL_app_usage.png
 ├── data/
 │   ├── ipl_data_2016.csv
 │   └── matches.csv
